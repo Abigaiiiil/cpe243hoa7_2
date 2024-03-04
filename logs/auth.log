@@ -1,0 +1,341 @@
+2024-03-04T00:54:00.319164+00:00 Abbys1 useradd[447]: new group: name=abby_s1, GID=1000
+2024-03-04T00:54:00.319165+00:00 Abbys1 useradd[447]: new user: name=abby_s1, UID=1000, GID=1000, home=/home/abby_s1, shell=/bin/bash, from=none
+2024-03-04T00:54:00.319167+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'adm'
+2024-03-04T00:54:00.319168+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'cdrom'
+2024-03-04T00:54:00.319170+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'sudo'
+2024-03-04T00:54:00.319177+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'dip'
+2024-03-04T00:54:00.319179+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'plugdev'
+2024-03-04T00:54:00.319180+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'users'
+2024-03-04T00:54:00.319181+00:00 Abbys1 useradd[447]: add 'abby_s1' to group 'lpadmin'
+2024-03-04T00:54:00.319182+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'adm'
+2024-03-04T00:54:00.319184+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'cdrom'
+2024-03-04T00:54:00.319186+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'sudo'
+2024-03-04T00:54:00.319187+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'dip'
+2024-03-04T00:54:00.319188+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'plugdev'
+2024-03-04T00:54:00.319189+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'users'
+2024-03-04T00:54:00.319191+00:00 Abbys1 useradd[447]: add 'abby_s1' to shadow group 'lpadmin'
+2024-03-04T00:54:00.319533+00:00 Abbys1 systemd-logind[594]: New seat seat0.
+2024-03-04T00:54:00.319534+00:00 Abbys1 systemd-logind[594]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T00:54:00.319536+00:00 Abbys1 systemd-logind[594]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T00:54:00.319539+00:00 Abbys1 systemd-logind[594]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T00:54:19.980714+00:00 Abbys1 gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T00:54:19.980932+00:00 Abbys1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T00:54:20.030806+00:00 Abbys1 systemd-logind[594]: New session c1 of user gdm.
+2024-03-04T00:54:20.056373+00:00 Abbys1 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T00:54:21.494307+00:00 Abbys1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T00:55:10.732322+00:00 Abbys1 gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T00:55:10.732388+00:00 Abbys1 gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T00:55:10.737937+00:00 Abbys1 gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T00:55:10.738060+00:00 Abbys1 gdm-password]: pam_unix(gdm-password:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T00:55:10.755708+00:00 Abbys1 systemd-logind[594]: New session 2 of user abby_s1.
+2024-03-04T00:55:10.785067+00:00 Abbys1 systemd: pam_unix(systemd-user:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T00:55:10.921089+00:00 Abbys1 gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T00:55:11.457355+00:00 Abbys1 gnome-keyring-daemon[1662]: The Secret Service was already initialized
+2024-03-04T00:55:11.457761+00:00 Abbys1 gnome-keyring-daemon[1662]: The PKCS#11 component was already initialized
+2024-03-04T00:55:11.466825+00:00 Abbys1 gnome-keyring-daemon[1926]: discover_other_daemon: 1
+2024-03-04T00:55:11.467262+00:00 Abbys1 gnome-keyring-daemon[1922]: discover_other_daemon: 1
+2024-03-04T00:55:11.473325+00:00 Abbys1 gnome-keyring-daemon[1929]: discover_other_daemon: 1
+2024-03-04T00:55:12.167455+00:00 Abbys1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.72 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T00:55:13.389783+00:00 Abbys1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T00:55:13.403003+00:00 Abbys1 systemd-logind[594]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T00:55:13.462487+00:00 Abbys1 systemd-logind[594]: Removed session c1.
+2024-03-04T00:55:13.494717+00:00 Abbys1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T00:56:14.146999+00:00 Abbys1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T00:56:14.148170+00:00 Abbys1 pkexec[2815]: abby_s1: Executing command [USER=root] [TTY=unknown] [CWD=/home/abby_s1] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T01:34:50.719653+00:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hostname
+2024-03-04T01:34:50.720225+00:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T01:36:07.442612+00:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T01:36:13.124075+00:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T01:36:13.124721+00:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T01:37:09.800895+00:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T01:37:45.247755+00:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/apt update
+2024-03-04T01:37:45.249669+00:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2024-03-04T01:37:45.249828+00:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T01:37:45.249895+00:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T01:37:47.562237+00:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:41:05.233860+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:43:21.205072+08:00 Abbys1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:43:21.207391+08:00 Abbys1 pkexec[26839]: abby_s1: Executing command [USER=root] [TTY=unknown] [CWD=/home/abby_s1] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T09:45:51.504988+08:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+2024-03-04T09:45:51.507155+08:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:45:54.269579+08:00 Abbys1 useradd[27057]: new user: name=sshd, UID=124, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2024-03-04T09:45:57.858446+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:46:21.121386+08:00 Abbys1 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:46:21.122459+08:00 Abbys1 pkexec[27372]: abby_s1: Executing command [USER=root] [TTY=unknown] [CWD=/home/abby_s1] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2024-03-04T09:51:45.082793+08:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/sbin/service ssh start
+2024-03-04T09:51:45.085038+08:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:51:45.596358+08:00 Abbys1 sshd[27395]: Server listening on :: port 22.
+2024-03-04T09:51:45.598544+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:51:53.400962+08:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2024-03-04T09:51:53.401646+08:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:52:10.551833+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:08.446155+08:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+2024-03-04T09:54:08.446655+08:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:54:08.601386+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:13.240077+08:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2024-03-04T09:54:13.240653+08:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:54:13.823771+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T09:54:18.840554+08:00 Abbys1 sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/sbin/ufw status
+2024-03-04T09:54:18.841273+08:00 Abbys1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T09:54:18.882920+08:00 Abbys1 sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:01:11.672803+08:00 abbycontrol systemd-logind[694]: New seat seat0.
+2024-03-04T10:01:11.672804+08:00 abbycontrol systemd-logind[694]: Watching system buttons on /dev/input/event0 (Power Button)
+2024-03-04T10:01:11.672806+08:00 abbycontrol systemd-logind[694]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2024-03-04T10:01:11.672808+08:00 abbycontrol systemd-logind[694]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2024-03-04T10:01:11.944427+08:00 abbycontrol gdm-launch-environment]: pam_env(gdm-launch-environment:session): deprecated reading of user environment enabled
+2024-03-04T10:01:11.944658+08:00 abbycontrol gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T10:01:11.991311+08:00 abbycontrol systemd-logind[694]: New session c1 of user gdm.
+2024-03-04T10:01:12.010952+08:00 abbycontrol systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=120) by (uid=0)
+2024-03-04T10:01:13.830085+08:00 abbycontrol polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T10:01:19.734337+08:00 abbycontrol gdm-password]: gkr-pam: unable to locate daemon control file
+2024-03-04T10:01:19.734397+08:00 abbycontrol gdm-password]: gkr-pam: stashed password to try later in open session
+2024-03-04T10:01:19.742469+08:00 abbycontrol gdm-password]: pam_env(gdm-password:session): deprecated reading of user environment enabled
+2024-03-04T10:01:19.743003+08:00 abbycontrol gdm-password]: pam_unix(gdm-password:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:01:19.770589+08:00 abbycontrol systemd-logind[694]: New session 2 of user abby_s1.
+2024-03-04T10:01:19.791264+08:00 abbycontrol systemd: pam_unix(systemd-user:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:01:19.996354+08:00 abbycontrol gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T10:01:20.497784+08:00 abbycontrol gnome-keyring-daemon[1317]: The PKCS#11 component was already initialized
+2024-03-04T10:01:20.497976+08:00 abbycontrol gnome-keyring-daemon[1317]: The Secret Service was already initialized
+2024-03-04T10:01:20.498081+08:00 abbycontrol gnome-keyring-daemon[1469]: discover_other_daemon: 1
+2024-03-04T10:01:20.498671+08:00 abbycontrol gnome-keyring-daemon[1474]: discover_other_daemon: 1
+2024-03-04T10:01:20.498910+08:00 abbycontrol gnome-keyring-daemon[1468]: discover_other_daemon: 1
+2024-03-04T10:01:21.265811+08:00 abbycontrol polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-03-04T10:01:22.683473+08:00 abbycontrol gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-03-04T10:01:22.692536+08:00 abbycontrol systemd-logind[694]: Session c1 logged out. Waiting for processes to exit.
+2024-03-04T10:01:22.728973+08:00 abbycontrol systemd-logind[694]: Removed session c1.
+2024-03-04T10:01:22.772822+08:00 abbycontrol polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-03-04T10:07:58.750659+08:00 abbycontrol sshd[2256]: Server listening on :: port 22.
+2024-03-04T10:08:04.920282+08:00 abbycontrol sshd[2257]: Invalid user abby_workstation from 192.168.56.112 port 40200
+2024-03-04T10:08:08.682522+08:00 abbycontrol sshd[2257]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:08:08.682743+08:00 abbycontrol sshd[2257]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T10:08:11.057155+08:00 abbycontrol sshd[2257]: Failed password for invalid user abby_workstation from 192.168.56.112 port 40200 ssh2
+2024-03-04T10:08:22.146889+08:00 abbycontrol sshd[2257]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:08:24.437289+08:00 abbycontrol sshd[2257]: Failed password for invalid user abby_workstation from 192.168.56.112 port 40200 ssh2
+2024-03-04T10:08:34.187031+08:00 abbycontrol sshd[2257]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:08:36.791992+08:00 abbycontrol sshd[2257]: Failed password for invalid user abby_workstation from 192.168.56.112 port 40200 ssh2
+2024-03-04T10:08:38.875424+08:00 abbycontrol sshd[2257]: Connection closed by invalid user abby_workstation 192.168.56.112 port 40200 [preauth]
+2024-03-04T10:08:38.875490+08:00 abbycontrol sshd[2257]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T10:08:51.337150+08:00 abbycontrol sshd[2259]: Accepted password for abby_s1 from 192.168.56.112 port 40056 ssh2
+2024-03-04T10:08:51.338765+08:00 abbycontrol sshd[2259]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:08:51.362053+08:00 abbycontrol systemd-logind[694]: New session 4 of user abby_s1.
+2024-03-04T10:08:51.687480+08:00 abbycontrol sshd[2259]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:09:00.126569+08:00 abbycontrol sshd[2350]: Received disconnect from 192.168.56.112 port 40056:11: disconnected by user
+2024-03-04T10:09:00.126788+08:00 abbycontrol sshd[2350]: Disconnected from user abby_s1 192.168.56.112 port 40056
+2024-03-04T10:09:00.127236+08:00 abbycontrol sshd[2259]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:09:00.131596+08:00 abbycontrol systemd-logind[694]: Session 4 logged out. Waiting for processes to exit.
+2024-03-04T10:09:00.135030+08:00 abbycontrol systemd-logind[694]: Removed session 4.
+2024-03-04T10:14:36.493079+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T10:14:36.495616+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T10:15:37.929792+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:15:57.358441+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T10:15:57.359041+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T10:16:33.909123+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T10:16:50.858534+08:00 abbycontrol sshd[2494]: Accepted password for abby_s1 from 192.168.56.112 port 40006 ssh2
+2024-03-04T10:16:50.859632+08:00 abbycontrol sshd[2494]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:16:50.877754+08:00 abbycontrol systemd-logind[694]: New session 5 of user abby_s1.
+2024-03-04T10:16:50.942540+08:00 abbycontrol sshd[2494]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:16:52.759427+08:00 abbycontrol sshd[2531]: Received disconnect from 192.168.56.112 port 40006:11: disconnected by user
+2024-03-04T10:16:52.759526+08:00 abbycontrol sshd[2531]: Disconnected from user abby_s1 192.168.56.112 port 40006
+2024-03-04T10:16:52.759961+08:00 abbycontrol sshd[2494]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:16:52.764345+08:00 abbycontrol systemd-logind[694]: Session 5 logged out. Waiting for processes to exit.
+2024-03-04T10:16:52.765907+08:00 abbycontrol systemd-logind[694]: Removed session 5.
+2024-03-04T10:16:56.825552+08:00 abbycontrol sshd[2545]: Accepted password for abby_s1 from 192.168.56.112 port 44190 ssh2
+2024-03-04T10:16:56.826856+08:00 abbycontrol sshd[2545]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:16:56.842137+08:00 abbycontrol systemd-logind[694]: New session 6 of user abby_s1.
+2024-03-04T10:16:56.917549+08:00 abbycontrol sshd[2545]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:16:58.887544+08:00 abbycontrol sshd[2581]: Received disconnect from 192.168.56.112 port 44190:11: disconnected by user
+2024-03-04T10:16:58.887622+08:00 abbycontrol sshd[2581]: Disconnected from user abby_s1 192.168.56.112 port 44190
+2024-03-04T10:16:58.887936+08:00 abbycontrol sshd[2545]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:16:58.891800+08:00 abbycontrol systemd-logind[694]: Session 6 logged out. Waiting for processes to exit.
+2024-03-04T10:16:58.894335+08:00 abbycontrol systemd-logind[694]: Removed session 6.
+2024-03-04T10:17:01.150116+08:00 abbycontrol CRON[2597]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T10:17:01.153290+08:00 abbycontrol CRON[2597]: pam_unix(cron:session): session closed for user root
+2024-03-04T10:30:01.159963+08:00 abbycontrol CRON[2654]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T10:30:01.162262+08:00 abbycontrol CRON[2654]: pam_unix(cron:session): session closed for user root
+2024-03-04T10:33:39.192989+08:00 abbycontrol gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T10:36:21.832362+08:00 abbycontrol sshd[2813]: Connection closed by authenticating user abby_s1 192.168.56.111 port 43952 [preauth]
+2024-03-04T10:36:21.954746+08:00 abbycontrol sshd[2820]: Connection closed by authenticating user abby_s1 192.168.56.111 port 43958 [preauth]
+2024-03-04T10:36:24.476591+08:00 abbycontrol sshd[2833]: Accepted password for abby_s1 from 192.168.56.111 port 43962 ssh2
+2024-03-04T10:36:24.478192+08:00 abbycontrol sshd[2833]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:36:24.493783+08:00 abbycontrol systemd-logind[694]: New session 9 of user abby_s1.
+2024-03-04T10:36:24.579959+08:00 abbycontrol sshd[2833]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:36:24.593381+08:00 abbycontrol sshd[2869]: Received disconnect from 192.168.56.111 port 43962:11: disconnected by user
+2024-03-04T10:36:24.593534+08:00 abbycontrol sshd[2869]: Disconnected from user abby_s1 192.168.56.111 port 43962
+2024-03-04T10:36:24.593553+08:00 abbycontrol sshd[2833]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:36:24.599234+08:00 abbycontrol systemd-logind[694]: Session 9 logged out. Waiting for processes to exit.
+2024-03-04T10:36:24.600059+08:00 abbycontrol systemd-logind[694]: Removed session 9.
+2024-03-04T10:41:00.536038+08:00 abbycontrol sshd[2885]: Accepted password for abby_s1 from 192.168.56.112 port 40522 ssh2
+2024-03-04T10:41:00.538999+08:00 abbycontrol sshd[2885]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:41:00.562080+08:00 abbycontrol systemd-logind[694]: New session 10 of user abby_s1.
+2024-03-04T10:41:00.621058+08:00 abbycontrol sshd[2885]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:41:02.238549+08:00 abbycontrol sshd[2921]: Received disconnect from 192.168.56.112 port 40522:11: disconnected by user
+2024-03-04T10:41:02.240650+08:00 abbycontrol sshd[2921]: Disconnected from user abby_s1 192.168.56.112 port 40522
+2024-03-04T10:41:02.240928+08:00 abbycontrol sshd[2885]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:41:02.242619+08:00 abbycontrol systemd-logind[694]: Session 10 logged out. Waiting for processes to exit.
+2024-03-04T10:41:02.245952+08:00 abbycontrol systemd-logind[694]: Removed session 10.
+2024-03-04T10:41:06.696809+08:00 abbycontrol sshd[2936]: Accepted password for abby_s1 from 192.168.56.112 port 34958 ssh2
+2024-03-04T10:41:06.698136+08:00 abbycontrol sshd[2936]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:41:06.713949+08:00 abbycontrol systemd-logind[694]: New session 11 of user abby_s1.
+2024-03-04T10:41:06.787153+08:00 abbycontrol sshd[2936]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:41:15.032501+08:00 abbycontrol sshd[2972]: Received disconnect from 192.168.56.112 port 34958:11: disconnected by user
+2024-03-04T10:41:15.032575+08:00 abbycontrol sshd[2972]: Disconnected from user abby_s1 192.168.56.112 port 34958
+2024-03-04T10:41:15.033053+08:00 abbycontrol sshd[2936]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:41:15.036813+08:00 abbycontrol systemd-logind[694]: Session 11 logged out. Waiting for processes to exit.
+2024-03-04T10:41:15.038197+08:00 abbycontrol systemd-logind[694]: Removed session 11.
+2024-03-04T10:42:01.907107+08:00 abbycontrol sshd[2988]: Invalid user abby_workstation from 192.168.56.112 port 56142
+2024-03-04T10:42:01.916330+08:00 abbycontrol sshd[2988]: Connection closed by invalid user abby_workstation 192.168.56.112 port 56142 [preauth]
+2024-03-04T10:42:02.026776+08:00 abbycontrol sshd[2990]: Invalid user abby_workstation from 192.168.56.112 port 56156
+2024-03-04T10:42:02.045753+08:00 abbycontrol sshd[2990]: Connection closed by invalid user abby_workstation 192.168.56.112 port 56156 [preauth]
+2024-03-04T10:42:02.167046+08:00 abbycontrol sshd[2992]: Invalid user abby_workstation from 192.168.56.112 port 56166
+2024-03-04T10:42:05.455368+08:00 abbycontrol sshd[2992]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:42:05.455543+08:00 abbycontrol sshd[2992]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T10:42:07.471494+08:00 abbycontrol sshd[2992]: Failed password for invalid user abby_workstation from 192.168.56.112 port 56166 ssh2
+2024-03-04T10:42:10.239059+08:00 abbycontrol sshd[2992]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:42:11.941169+08:00 abbycontrol sshd[2992]: Failed password for invalid user abby_workstation from 192.168.56.112 port 56166 ssh2
+2024-03-04T10:42:20.231377+08:00 abbycontrol sshd[2992]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:42:21.968378+08:00 abbycontrol sshd[2992]: Failed password for invalid user abby_workstation from 192.168.56.112 port 56166 ssh2
+2024-03-04T10:42:22.576000+08:00 abbycontrol sshd[2992]: Connection closed by invalid user abby_workstation 192.168.56.112 port 56166 [preauth]
+2024-03-04T10:42:22.576082+08:00 abbycontrol sshd[2992]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T10:43:25.617135+08:00 abbycontrol sshd[2995]: Invalid user abby_workstation from 192.168.56.112 port 52720
+2024-03-04T10:43:25.626570+08:00 abbycontrol sshd[2995]: Connection closed by invalid user abby_workstation 192.168.56.112 port 52720 [preauth]
+2024-03-04T10:43:25.738974+08:00 abbycontrol sshd[2997]: Invalid user abby_workstation from 192.168.56.112 port 52730
+2024-03-04T10:43:25.758350+08:00 abbycontrol sshd[2997]: Connection closed by invalid user abby_workstation 192.168.56.112 port 52730 [preauth]
+2024-03-04T10:43:25.879500+08:00 abbycontrol sshd[2999]: Invalid user abby_workstation from 192.168.56.112 port 52732
+2024-03-04T10:43:28.249818+08:00 abbycontrol sshd[2999]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:43:28.249978+08:00 abbycontrol sshd[2999]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T10:43:29.989201+08:00 abbycontrol sshd[2999]: Failed password for invalid user abby_workstation from 192.168.56.112 port 52732 ssh2
+2024-03-04T10:43:43.799991+08:00 abbycontrol sshd[3001]: Invalid user abbycontrol from 192.168.56.112 port 52944
+2024-03-04T10:43:43.807980+08:00 abbycontrol sshd[3001]: Connection closed by invalid user abbycontrol 192.168.56.112 port 52944 [preauth]
+2024-03-04T10:43:43.922910+08:00 abbycontrol sshd[3003]: Invalid user abbycontrol from 192.168.56.112 port 52952
+2024-03-04T10:43:43.939593+08:00 abbycontrol sshd[3003]: Connection closed by invalid user abbycontrol 192.168.56.112 port 52952 [preauth]
+2024-03-04T10:43:44.054944+08:00 abbycontrol sshd[3005]: Invalid user abbycontrol from 192.168.56.112 port 52960
+2024-03-04T10:43:47.154503+08:00 abbycontrol sshd[3005]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T10:43:47.154752+08:00 abbycontrol sshd[3005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T10:43:49.168719+08:00 abbycontrol sshd[3005]: Failed password for invalid user abbycontrol from 192.168.56.112 port 52960 ssh2
+2024-03-04T10:43:58.356716+08:00 abbycontrol sshd[3007]: Connection closed by authenticating user abby_s1 192.168.56.112 port 42748 [preauth]
+2024-03-04T10:43:58.483896+08:00 abbycontrol sshd[3009]: Connection closed by authenticating user abby_s1 192.168.56.112 port 42760 [preauth]
+2024-03-04T10:44:01.640533+08:00 abbycontrol sshd[3011]: Accepted password for abby_s1 from 192.168.56.112 port 42764 ssh2
+2024-03-04T10:44:01.642061+08:00 abbycontrol sshd[3011]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:44:01.661498+08:00 abbycontrol systemd-logind[694]: New session 12 of user abby_s1.
+2024-03-04T10:44:01.713448+08:00 abbycontrol sshd[3011]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:44:01.772006+08:00 abbycontrol sshd[3047]: Received disconnect from 192.168.56.112 port 42764:11: disconnected by user
+2024-03-04T10:44:01.772101+08:00 abbycontrol sshd[3047]: Disconnected from user abby_s1 192.168.56.112 port 42764
+2024-03-04T10:44:01.772116+08:00 abbycontrol sshd[3011]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:44:01.775739+08:00 abbycontrol systemd-logind[694]: Session 12 logged out. Waiting for processes to exit.
+2024-03-04T10:44:01.778078+08:00 abbycontrol systemd-logind[694]: Removed session 12.
+2024-03-04T10:44:30.001542+08:00 abbycontrol sshd[3053]: Accepted publickey for abby_s1 from 192.168.56.112 port 50020 ssh2: RSA SHA256:g9d4s+5ubtuN879BS9vDPtzeSxRwkv1ovodUuihkqDE
+2024-03-04T10:44:30.003146+08:00 abbycontrol sshd[3053]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T10:44:30.025542+08:00 abbycontrol systemd-logind[694]: New session 13 of user abby_s1.
+2024-03-04T10:44:30.100049+08:00 abbycontrol sshd[3053]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T10:44:34.815334+08:00 abbycontrol sshd[3089]: Received disconnect from 192.168.56.112 port 50020:11: disconnected by user
+2024-03-04T10:44:34.815636+08:00 abbycontrol sshd[3089]: Disconnected from user abby_s1 192.168.56.112 port 50020
+2024-03-04T10:44:34.816232+08:00 abbycontrol sshd[3053]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T10:44:34.819510+08:00 abbycontrol systemd-logind[694]: Session 13 logged out. Waiting for processes to exit.
+2024-03-04T10:44:34.823515+08:00 abbycontrol systemd-logind[694]: Removed session 13.
+2024-03-04T10:45:26.251120+08:00 abbycontrol sshd[2999]: fatal: Timeout before authentication for 192.168.56.112 port 52732
+2024-03-04T10:45:44.156717+08:00 abbycontrol sshd[3005]: fatal: Timeout before authentication for 192.168.56.112 port 52960
+2024-03-04T10:50:42.019291+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/apt install git -y
+2024-03-04T10:50:42.022058+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T10:50:47.696398+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:09:22.441399+08:00 abbycontrol gdm-password]: gkr-pam: unlocked login keyring
+2024-03-04T11:11:42.912124+08:00 abbycontrol sshd[3475]: Invalid user abby_workstation from 192.168.56.112 port 59166
+2024-03-04T11:11:42.930667+08:00 abbycontrol sshd[3475]: Connection closed by invalid user abby_workstation 192.168.56.112 port 59166 [preauth]
+2024-03-04T11:11:57.127369+08:00 abbycontrol sshd[3477]: Invalid user abby_workstation from 192.168.56.112 port 46194
+2024-03-04T11:11:57.147758+08:00 abbycontrol sshd[3477]: Connection closed by invalid user abby_workstation 192.168.56.112 port 46194 [preauth]
+2024-03-04T11:12:32.312011+08:00 abbycontrol sshd[3479]: Invalid user abby_workstation from 192.168.56.112 port 54428
+2024-03-04T11:12:32.332612+08:00 abbycontrol sshd[3479]: Connection closed by invalid user abby_workstation 192.168.56.112 port 54428 [preauth]
+2024-03-04T11:16:00.811973+08:00 abbycontrol sshd[3486]: Invalid user abby_workstation from 192.168.56.112 port 41222
+2024-03-04T11:16:00.831684+08:00 abbycontrol sshd[3486]: Connection closed by invalid user abby_workstation 192.168.56.112 port 41222 [preauth]
+2024-03-04T11:17:01.152280+08:00 abbycontrol sshd[3521]: Invalid user abbycontrol from 192.168.56.112 port 43568
+2024-03-04T11:17:01.160222+08:00 abbycontrol sshd[3521]: Connection closed by invalid user abbycontrol 192.168.56.112 port 43568 [preauth]
+2024-03-04T11:17:01.182612+08:00 abbycontrol CRON[3525]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2024-03-04T11:17:01.186772+08:00 abbycontrol CRON[3525]: pam_unix(cron:session): session closed for user root
+2024-03-04T11:17:01.284398+08:00 abbycontrol sshd[3523]: Invalid user abbycontrol from 192.168.56.112 port 43574
+2024-03-04T11:17:01.302472+08:00 abbycontrol sshd[3523]: Connection closed by invalid user abbycontrol 192.168.56.112 port 43574 [preauth]
+2024-03-04T11:17:01.441161+08:00 abbycontrol sshd[3528]: Invalid user abbycontrol from 192.168.56.112 port 43586
+2024-03-04T11:17:06.460455+08:00 abbycontrol sshd[3528]: pam_unix(sshd:auth): check pass; user unknown
+2024-03-04T11:17:06.460551+08:00 abbycontrol sshd[3528]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.112 
+2024-03-04T11:17:08.568221+08:00 abbycontrol sshd[3528]: Failed password for invalid user abbycontrol from 192.168.56.112 port 43586 ssh2
+2024-03-04T11:17:28.290456+08:00 abbycontrol sshd[3530]: Connection closed by authenticating user abby_s1 192.168.56.112 port 40526 [preauth]
+2024-03-04T11:17:28.427667+08:00 abbycontrol sshd[3532]: Accepted publickey for abby_s1 from 192.168.56.112 port 40532 ssh2: RSA SHA256:g9d4s+5ubtuN879BS9vDPtzeSxRwkv1ovodUuihkqDE
+2024-03-04T11:17:28.429431+08:00 abbycontrol sshd[3532]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T11:17:28.457187+08:00 abbycontrol systemd-logind[694]: New session 15 of user abby_s1.
+2024-03-04T11:17:28.597784+08:00 abbycontrol sshd[3532]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T11:17:28.646657+08:00 abbycontrol sshd[3610]: Received disconnect from 192.168.56.112 port 40532:11: disconnected by user
+2024-03-04T11:17:28.649345+08:00 abbycontrol sshd[3610]: Disconnected from user abby_s1 192.168.56.112 port 40532
+2024-03-04T11:17:28.649414+08:00 abbycontrol sshd[3532]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T11:17:28.651596+08:00 abbycontrol systemd-logind[694]: Session 15 logged out. Waiting for processes to exit.
+2024-03-04T11:17:28.653884+08:00 abbycontrol systemd-logind[694]: Removed session 15.
+2024-03-04T11:17:38.292089+08:00 abbycontrol sshd[3613]: Invalid user abby_workstation from 192.168.56.112 port 35618
+2024-03-04T11:17:38.316454+08:00 abbycontrol sshd[3613]: Connection closed by invalid user abby_workstation 192.168.56.112 port 35618 [preauth]
+2024-03-04T11:18:25.176417+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T11:18:25.177188+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T11:18:57.584841+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:19:01.461264+08:00 abbycontrol sshd[3528]: fatal: Timeout before authentication for 192.168.56.112 port 43586
+2024-03-04T11:19:08.472523+08:00 abbycontrol sshd[3618]: Invalid user abby_workstation from 192.168.56.112 port 59078
+2024-03-04T11:19:08.492813+08:00 abbycontrol sshd[3618]: Connection closed by invalid user abby_workstation 192.168.56.112 port 59078 [preauth]
+2024-03-04T11:20:21.307165+08:00 abbycontrol sshd[3620]: Invalid user abby_workstation from 192.168.56.112 port 52540
+2024-03-04T11:20:21.326603+08:00 abbycontrol sshd[3620]: Connection closed by invalid user abby_workstation 192.168.56.112 port 52540 [preauth]
+2024-03-04T11:20:47.705721+08:00 abbycontrol sshd[3622]: Accepted publickey for abby_s1 from 192.168.56.112 port 52252 ssh2: RSA SHA256:g9d4s+5ubtuN879BS9vDPtzeSxRwkv1ovodUuihkqDE
+2024-03-04T11:20:47.706797+08:00 abbycontrol sshd[3622]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T11:20:47.734020+08:00 abbycontrol systemd-logind[694]: New session 16 of user abby_s1.
+2024-03-04T11:20:47.800535+08:00 abbycontrol sshd[3622]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T11:20:51.643513+08:00 abbycontrol sshd[3658]: Received disconnect from 192.168.56.112 port 52252:11: disconnected by user
+2024-03-04T11:20:51.643780+08:00 abbycontrol sshd[3658]: Disconnected from user abby_s1 192.168.56.112 port 52252
+2024-03-04T11:20:51.643887+08:00 abbycontrol sshd[3622]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T11:20:51.647633+08:00 abbycontrol systemd-logind[694]: Session 16 logged out. Waiting for processes to exit.
+2024-03-04T11:20:51.658071+08:00 abbycontrol systemd-logind[694]: Removed session 16.
+2024-03-04T11:21:44.911253+08:00 abbycontrol sshd[3675]: Invalid user abby_workstation from 192.168.56.112 port 57878
+2024-03-04T11:21:44.931235+08:00 abbycontrol sshd[3675]: Connection closed by invalid user abby_workstation 192.168.56.112 port 57878 [preauth]
+2024-03-04T11:23:01.647467+08:00 abbycontrol sshd[3677]: Invalid user abby_workstation from 192.168.56.112 port 48296
+2024-03-04T11:23:01.667752+08:00 abbycontrol sshd[3677]: Connection closed by invalid user abby_workstation 192.168.56.112 port 48296 [preauth]
+2024-03-04T11:23:27.614782+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T11:23:27.616762+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T11:23:43.970639+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:24:11.393537+08:00 abbycontrol sshd[3685]: Accepted publickey for abby_s1 from 192.168.56.112 port 46658 ssh2: RSA SHA256:g9d4s+5ubtuN879BS9vDPtzeSxRwkv1ovodUuihkqDE
+2024-03-04T11:24:11.394684+08:00 abbycontrol sshd[3685]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T11:24:11.414463+08:00 abbycontrol systemd-logind[694]: New session 17 of user abby_s1.
+2024-03-04T11:24:11.468519+08:00 abbycontrol sshd[3685]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T11:24:12.709602+08:00 abbycontrol sshd[3721]: Received disconnect from 192.168.56.112 port 46658:11: disconnected by user
+2024-03-04T11:24:12.709821+08:00 abbycontrol sshd[3721]: Disconnected from user abby_s1 192.168.56.112 port 46658
+2024-03-04T11:24:12.709926+08:00 abbycontrol sshd[3685]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T11:24:12.714138+08:00 abbycontrol systemd-logind[694]: Session 17 logged out. Waiting for processes to exit.
+2024-03-04T11:24:12.715700+08:00 abbycontrol systemd-logind[694]: Removed session 17.
+2024-03-04T11:24:19.286728+08:00 abbycontrol sshd[3736]: Accepted publickey for abby_s1 from 192.168.56.112 port 47232 ssh2: RSA SHA256:g9d4s+5ubtuN879BS9vDPtzeSxRwkv1ovodUuihkqDE
+2024-03-04T11:24:19.288239+08:00 abbycontrol sshd[3736]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T11:24:19.305893+08:00 abbycontrol systemd-logind[694]: New session 18 of user abby_s1.
+2024-03-04T11:24:19.357401+08:00 abbycontrol sshd[3736]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T11:24:20.381231+08:00 abbycontrol sshd[3772]: Received disconnect from 192.168.56.112 port 47232:11: disconnected by user
+2024-03-04T11:24:20.381577+08:00 abbycontrol sshd[3772]: Disconnected from user abby_s1 192.168.56.112 port 47232
+2024-03-04T11:24:20.382263+08:00 abbycontrol sshd[3736]: pam_unix(sshd:session): session closed for user abby_s1
+2024-03-04T11:24:20.385824+08:00 abbycontrol systemd-logind[694]: Session 18 logged out. Waiting for processes to exit.
+2024-03-04T11:24:20.388429+08:00 abbycontrol systemd-logind[694]: Removed session 18.
+2024-03-04T11:24:24.079230+08:00 abbycontrol sshd[3787]: Invalid user abby_workstation from 192.168.56.112 port 47248
+2024-03-04T11:24:24.098451+08:00 abbycontrol sshd[3787]: Connection closed by invalid user abby_workstation 192.168.56.112 port 47248 [preauth]
+2024-03-04T11:24:40.037951+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/0 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+2024-03-04T11:24:40.038623+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2024-03-04T11:25:33.195115+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:25:59.329753+08:00 abbycontrol sshd[3792]: Accepted publickey for abby_s1 from 192.168.56.112 port 45220 ssh2: RSA SHA256:g9d4s+5ubtuN879BS9vDPtzeSxRwkv1ovodUuihkqDE
+2024-03-04T11:25:59.330872+08:00 abbycontrol sshd[3792]: pam_unix(sshd:session): session opened for user abby_s1(uid=1000) by (uid=0)
+2024-03-04T11:25:59.334671+08:00 abbycontrol systemd-logind[694]: New session 19 of user abby_s1.
+2024-03-04T11:25:59.408239+08:00 abbycontrol sshd[3792]: pam_env(sshd:session): deprecated reading of user environment enabled
+2024-03-04T11:26:25.002536+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/1 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-aeawtyahursqohnrbtxjxotbmsqkmwmr ; /usr/bin/python3 /home/abby_s1/.ansible/tmp/ansible-tmp-1709526365.3095784-5776-195349205585826/AnsiballZ_setup.py'
+2024-03-04T11:26:25.004641+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=1000)
+2024-03-04T11:26:25.494110+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:26:25.550034+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/1 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-rsviwsyttvaadglyxwndqmifmpechdjw ; sudo dpkg --configure -a'
+2024-03-04T11:26:25.550614+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=1000)
+2024-03-04T11:26:25.556400+08:00 abbycontrol sudo:     root : TTY=pts/2 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+2024-03-04T11:26:25.557491+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=0)
+2024-03-04T11:26:25.591376+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:26:25.592326+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:26:25.789909+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/1 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-aiqjyftjoctwlorkgihgmiumwpcfmwtu ; /usr/bin/python3 /home/abby_s1/.ansible/tmp/ansible-tmp-1709526366.2053638-5790-244843757657875/AnsiballZ_apt.py'
+2024-03-04T11:26:25.790574+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=1000)
+2024-03-04T11:26:26.739571+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:26:26.886915+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/1 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-qkmhcqopdlkihvnvxlmezffvnirnfmhx ; /usr/bin/python3 /home/abby_s1/.ansible/tmp/ansible-tmp-1709526367.3758047-5801-146421764104714/AnsiballZ_setup.py'
+2024-03-04T11:26:26.887203+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=1000)
+2024-03-04T11:26:27.321203+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:26:27.522087+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/1 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-ymzdashsacrvphvulwslqnzfczcukpni ; /usr/bin/python3 /home/abby_s1/.ansible/tmp/ansible-tmp-1709526367.961046-5810-206018779713023/AnsiballZ_slurp.py'
+2024-03-04T11:26:27.522473+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=1000)
+2024-03-04T11:26:27.647447+08:00 abbycontrol sudo: pam_unix(sudo:session): session closed for user root
+2024-03-04T11:26:27.764180+08:00 abbycontrol sudo:  abby_s1 : TTY=pts/1 ; PWD=/home/abby_s1 ; USER=root ; COMMAND=/bin/sh -c 'echo BECOME-SUCCESS-jcrtfiuubdoxnbynquqktjysxjmtprwl ; /usr/bin/python3 /home/abby_s1/.ansible/tmp/ansible-tmp-1709526368.2617285-5810-58614109622562/AnsiballZ_slurp.py'
+2024-03-04T11:26:27.764694+08:00 abbycontrol sudo: pam_unix(sudo:session): session opened for user root(uid=0) by abby_s1(uid=1000)
